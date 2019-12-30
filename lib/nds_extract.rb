@@ -6,6 +6,7 @@ def directors_totals(nds)
   totals = {}
   
   while director_index < nds.length {
+    director_name = nds[director_index][:name]
     
   }
   
