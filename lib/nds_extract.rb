@@ -6,7 +6,7 @@ def directors_totals(nds)
   totals = {}
 
   while dir_index < nds.length do
-    di_name = nds[dir_index][:name]
+    dir_name = nds[dir_index][:name]
     totals[dir_name] = 0
     movie_index = 0
 
